@@ -20,9 +20,17 @@ for(i=0;i<=10;i++){
     }    
 }
 
-const MyArray = ["flash", "batman","superman"]
-console.log(MyArray.length)
-for(k=0;k < MyArray.length;k++){
-    const ele = MyArray[k]
-    console.log(ele)
+// const MyArray = ["flash", "batman","superman"]
+// console.log(MyArray.length)
+// for(k=0;k < MyArray.length;k++){
+//     const ele = MyArray[k]
+//     console.log(ele)
+// }
+
+for(n = 1; n<= 20; n++){
+    if(n == 5){
+        console.log(`The best no is ${5}`)
+        continue
+    }
+    console.log(`The value of n is ${n}`)
 }
