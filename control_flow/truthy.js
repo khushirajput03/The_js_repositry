@@ -44,3 +44,21 @@ if(Object.keys(EmptyObj).length === 0){
 // false == 0 // true
 // false == '' // true
 // 0 == '' // true
+
+// Nullish coalescing operator (??) : null undefined 
+
+let val1;
+// val1 = 5 ?? 10
+// val1 = null ?? 10
+// val1 = undefined ?? 10
+val1 = null ?? 20 ?? 40
+console.log(val1)
+
+
+// ternary operator
+
+// condition ? true : false 
+
+const iceTeaPrice = 100
+
+iceTeaPrice <= 80 ? console.log("less than 80") : console.log("more than 80")
